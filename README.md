@@ -1,3 +1,3 @@
 ##Chorno
 
-[Chrono][chrono.PNG]
+![Chrono](chrono.PNG)
