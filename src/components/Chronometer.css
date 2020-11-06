@@ -1,0 +1,74 @@
+
+.main-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 40px;
+    overflow: hidden;
+    background-color:  #17142f;
+}
+
+.chrono {
+    font-size: 15.5vh; 
+    height: 20%;
+
+}
+
+.chrono span {
+   color: orange;
+   padding: 0%;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    height: 8%;
+
+}
+
+#saved-values {
+    max-height: 40%;
+    min-height: 40%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid orange;
+}
+
+#saved-values span {
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+
+#saved-list {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    overflow: auto;
+}
+
+#saved-list li {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    color: orange;
+}
+
+button {
+    background-color: #fff;
+    border: 1px solid orange;
+    color: black;
+    width: 200px;
+    height: 50px;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+
+button:hover{
+    border: 1px solid black;
+    color: orange;
+}

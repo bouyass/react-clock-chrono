@@ -1,0 +1,52 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.clock {
+    background-image: url('https://www.vippng.com/png/detail/11-111127_clock-face-scientific-clock-face-without-hands-transparent.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 71%;
+    background-color: #fff;
+    position: relative;
+}
+
+#seconds {
+    background-color: orange;
+    width: 33%;
+    height: 4px;
+    margin-top: 47%;
+    margin-left: 43%;
+    transform-origin: 20% 80%;
+    position: absolute;
+}
+
+#minutes {
+    background-color: black;
+    width: 32%;
+    height: 8px;
+    margin-left: 43%;
+    margin-top: 47%;
+    transform-origin: 20% 100%;
+    position: absolute;
+    transform:  rotateZ(270deg);
+}
+
+#hours {
+    background-color: black;
+    width: 25%;
+    height: 15px;
+    margin-left: 43%;
+    transform-origin: 28% 100%;
+    margin-top: 47%;
+    position: absolute;
+}
+
+@keyframes rotate {
+    100% {
+      transform: rotateZ(360deg);
+      
+    }
+  }
